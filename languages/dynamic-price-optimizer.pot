@@ -1,0 +1,325 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dynamic Price Optimizer 1.0.0\n"
+"POT-Creation-Date: 2024-03-20 12:00+0000\n"
+"PO-Revision-Date: 2024-03-20 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/Core/Admin.php:123
+msgid "Dynamic Price Optimizer"
+msgstr ""
+
+#: includes/Core/Admin.php:124
+msgid "Price Optimizer"
+msgstr ""
+
+#: includes/Core/Admin.php:125
+msgid "Settings"
+msgstr ""
+
+#: includes/Core/Admin.php:126
+msgid "Price Optimizer Settings"
+msgstr ""
+
+#: includes/Core/Admin.php:127
+msgid "Configure the Dynamic Price Optimizer settings"
+msgstr ""
+
+#: includes/Core/Admin.php:128
+msgid "General Settings"
+msgstr ""
+
+#: includes/Core/Admin.php:129
+msgid "Configure general optimization settings"
+msgstr ""
+
+#: includes/Core/Admin.php:130
+msgid "Minimum Markup (%)"
+msgstr ""
+
+#: includes/Core/Admin.php:131
+msgid "Maximum Markup (%)"
+msgstr ""
+
+#: includes/Core/Admin.php:132
+msgid "Auto Update Prices"
+msgstr ""
+
+#: includes/Core/Admin.php:133
+msgid "Enable automatic price updates"
+msgstr ""
+
+#: includes/Core/Admin.php:134
+msgid "Competitor Settings"
+msgstr ""
+
+#: includes/Core/Admin.php:135
+msgid "Configure competitor tracking settings"
+msgstr ""
+
+#: includes/Core/Admin.php:136
+msgid "API Key"
+msgstr ""
+
+#: includes/Core/Admin.php:137
+msgid "Update Frequency"
+msgstr ""
+
+#: includes/Core/Admin.php:138
+msgid "Daily"
+msgstr ""
+
+#: includes/Core/Admin.php:139
+msgid "Weekly"
+msgstr ""
+
+#: includes/Core/Admin.php:140
+msgid "Monthly"
+msgstr ""
+
+#: includes/Core/Admin.php:141
+msgid "Machine Learning Settings"
+msgstr ""
+
+#: includes/Core/Admin.php:142
+msgid "Configure machine learning model settings"
+msgstr ""
+
+#: includes/Core/Admin.php:143
+msgid "Confidence Threshold"
+msgstr ""
+
+#: includes/Core/Admin.php:144
+msgid "Model Path"
+msgstr ""
+
+#: includes/Core/Admin.php:145
+msgid "Notification Settings"
+msgstr ""
+
+#: includes/Core/Admin.php:146
+msgid "Configure notification settings"
+msgstr ""
+
+#: includes/Core/Admin.php:147
+msgid "Notification Email"
+msgstr ""
+
+#: includes/Core/Admin.php:148
+msgid "Price Change Threshold (%)"
+msgstr ""
+
+#: templates/admin/main-page.php:12
+msgid "Overview"
+msgstr ""
+
+#: templates/admin/main-page.php:13
+msgid "Product List"
+msgstr ""
+
+#: templates/admin/main-page.php:14
+msgid "Optimization History"
+msgstr ""
+
+#: templates/admin/main-page.php:15
+msgid "Total Products"
+msgstr ""
+
+#: templates/admin/main-page.php:16
+msgid "Optimized Products"
+msgstr ""
+
+#: templates/admin/main-page.php:17
+msgid "Average Price Change"
+msgstr ""
+
+#: templates/admin/main-page.php:18
+msgid "Revenue Impact"
+msgstr ""
+
+#: templates/admin/main-page.php:19
+msgid "Category"
+msgstr ""
+
+#: templates/admin/main-page.php:20
+msgid "Status"
+msgstr ""
+
+#: templates/admin/main-page.php:21
+msgid "Search"
+msgstr ""
+
+#: templates/admin/main-page.php:22
+msgid "Product Name"
+msgstr ""
+
+#: templates/admin/main-page.php:23
+msgid "Current Price"
+msgstr ""
+
+#: templates/admin/main-page.php:24
+msgid "Optimal Price"
+msgstr ""
+
+#: templates/admin/main-page.php:25
+msgid "Price Change"
+msgstr ""
+
+#: templates/admin/main-page.php:26
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/main-page.php:27
+msgid "Analyze"
+msgstr ""
+
+#: templates/admin/main-page.php:28
+msgid "Apply"
+msgstr ""
+
+#: templates/admin/main-page.php:29
+msgid "Date"
+msgstr ""
+
+#: templates/admin/main-page.php:30
+msgid "Product"
+msgstr ""
+
+#: templates/admin/main-page.php:31
+msgid "Old Price"
+msgstr ""
+
+#: templates/admin/main-page.php:32
+msgid "New Price"
+msgstr ""
+
+#: templates/admin/main-page.php:33
+msgid "Change"
+msgstr ""
+
+#: templates/admin/main-page.php:34
+msgid "Reason"
+msgstr ""
+
+#: templates/admin/main-page.php:35
+msgid "Market Analysis"
+msgstr ""
+
+#: templates/admin/main-page.php:36
+msgid "Competitor Analysis"
+msgstr ""
+
+#: templates/admin/main-page.php:37
+msgid "Customer Behavior"
+msgstr ""
+
+#: templates/admin/main-page.php:38
+msgid "Risk Analysis"
+msgstr ""
+
+#: templates/admin/main-page.php:39
+msgid "Close"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:12
+msgid "Enable Price Optimization"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:13
+msgid "Current Price Information"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:14
+msgid "Current Price:"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:15
+msgid "Cost:"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:16
+msgid "Current Markup:"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:17
+msgid "Optimization Settings"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:18
+msgid "Minimum Markup (%):"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:19
+msgid "Maximum Markup (%):"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:20
+msgid "Quick Actions"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:21
+msgid "Analyze Price"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:22
+msgid "View History"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:23
+msgid "Optimization Status"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:24
+msgid "Last optimized: %s"
+msgstr ""
+
+#: templates/admin/product-meta-box.php:25
+msgid "Not optimized yet"
+msgstr ""
+
+#: assets/js/admin.js:123
+msgid "Analyzing"
+msgstr ""
+
+#: assets/js/admin.js:124
+msgid "Applying"
+msgstr ""
+
+#: assets/js/admin.js:125
+msgid "Optimizing"
+msgstr ""
+
+#: assets/js/admin.js:126
+msgid "Saving"
+msgstr ""
+
+#: assets/js/admin.js:127
+msgid "Error"
+msgstr ""
+
+#: assets/js/admin.js:128
+msgid "Settings Saved"
+msgstr ""
+
+#: assets/js/admin.js:129
+msgid "Select Products"
+msgstr ""
+
+#: assets/js/admin.js:130
+msgid "Save"
+msgstr "" 
