@@ -1,0 +1,59 @@
+{
+    "name": "yourusername/dynamic-price-optimizer",
+    "description": "A WordPress plugin for dynamic price optimization using competitor analysis and demand trends",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.0",
+        "monolog/monolog": "^2.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "squizlabs/php_codesniffer": "^3.6",
+        "wp-coding-standards/wpcs": "^2.3",
+        "phpstan/phpstan": "^1.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "phpcompatibility/phpcompatibility-paragonie": "^1.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DynamicPriceOptimizer\\": "includes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DynamicPriceOptimizer\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf",
+        "phpstan": "phpstan analyse",
+        "test": "phpunit",
+        "check": [
+            "@phpcs",
+            "@phpstan",
+            "@test"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "support": {
+        "issues": "https://github.com/yourusername/dynamic-price-optimizer/issues",
+        "source": "https://github.com/yourusername/dynamic-price-optimizer"
+    },
+    "minimum-stability": "stable"
+} 

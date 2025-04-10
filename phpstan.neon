@@ -1,0 +1,18 @@
+parameters:
+    level: 5
+    paths:
+        - includes
+        - templates
+    excludePaths:
+        - tests/*
+    ignoreErrors:
+        - '#Call to an undefined method [a-zA-Z0-9\\_]+::get_instance\(\)#'
+        - '#Call to an undefined method [a-zA-Z0-9\\_]+::get_instance\(\)#'
+        - '#Call to an undefined method [a-zA-Z0-9\\_]+::get_instance\(\)#'
+    bootstrapFiles:
+        - vendor/php-stubs/wordpress-stubs/wordpress-stubs.php
+        - vendor/php-stubs/woocommerce-stubs/woocommerce-stubs.php
+    symfony:
+        container_xml_path: var/cache/dev/App_KernelDevDebugContainer.xml
+    wordpress:
+        root_dir: . 

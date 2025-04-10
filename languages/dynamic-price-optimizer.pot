@@ -1,0 +1,311 @@
+# Copyright (C) 2024 Your Name
+# This file is distributed under the same license as the Dynamic Price Optimizer plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dynamic Price Optimizer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dynamic-price-optimizer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-05T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: dynamic-price-optimizer\n"
+
+#. Plugin Name of the plugin
+msgid "Dynamic Price Optimizer"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/dynamic-price-optimizer/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Optimize your WooCommerce product prices dynamically based on market data, competitor prices, and demand trends."
+msgstr ""
+
+#. Author of the plugin
+msgid "Your Name"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yourwebsite.com"
+msgstr ""
+
+#: includes/class-dynamic-price-optimizer.php:123
+msgid "Price optimization scheduled for %s"
+msgstr ""
+
+#: includes/class-dynamic-price-optimizer.php:134
+msgid "Error scheduling price optimization: %s"
+msgstr ""
+
+#: includes/class-dynamic-price-optimizer.php:145
+msgid "Price optimization completed successfully"
+msgstr ""
+
+#: includes/class-dynamic-price-optimizer.php:146
+msgid "Error during price optimization: %s"
+msgstr ""
+
+#: includes/class-data-collector.php:89
+msgid "Error fetching competitor prices: %s"
+msgstr ""
+
+#: includes/class-data-collector.php:102
+msgid "Error fetching historical data: %s"
+msgstr ""
+
+#: includes/class-data-collector.php:115
+msgid "Error fetching seasonal factors: %s"
+msgstr ""
+
+#: includes/class-data-collector.php:128
+msgid "Error fetching inventory levels: %s"
+msgstr ""
+
+#: includes/class-data-collector.php:141
+msgid "Error fetching demand trends: %s"
+msgstr ""
+
+#: includes/class-data-collector.php:154
+msgid "Error fetching cost data: %s"
+msgstr ""
+
+#: includes/class-price-optimizer.php:89
+msgid "Price change exceeds maximum allowed percentage"
+msgstr ""
+
+#: includes/class-price-optimizer.php:156
+msgid "High risk: Price significantly above market average"
+msgstr ""
+
+#: includes/class-price-optimizer.php:157
+msgid "High risk: Price significantly below market average"
+msgstr ""
+
+#: includes/class-price-optimizer.php:158
+msgid "High risk: Low inventory levels"
+msgstr ""
+
+#: includes/class-price-optimizer.php:159
+msgid "Medium risk: Price moderately above market average"
+msgstr ""
+
+#: includes/class-price-optimizer.php:160
+msgid "Medium risk: Price moderately below market average"
+msgstr ""
+
+#: includes/class-price-optimizer.php:161
+msgid "Medium risk: Moderate inventory levels"
+msgstr ""
+
+#: includes/class-price-optimizer.php:162
+msgid "Low risk: Price aligned with market average"
+msgstr ""
+
+#: includes/class-price-optimizer.php:163
+msgid "Low risk: High inventory levels"
+msgstr ""
+
+#: includes/class-admin-interface.php:45
+msgid "Dynamic Price Optimizer"
+msgstr ""
+
+#: includes/class-admin-interface.php:46
+msgid "Price Optimization"
+msgstr ""
+
+#: includes/class-admin-interface.php:47
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin-interface.php:48
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: templates/admin/main-page.php:12
+msgid "Product Filter"
+msgstr ""
+
+#: templates/admin/main-page.php:13
+msgid "All Products"
+msgstr ""
+
+#: templates/admin/main-page.php:17
+msgid "Refresh Data"
+msgstr ""
+
+#: templates/admin/main-page.php:25
+msgid "Current Price"
+msgstr ""
+
+#: templates/admin/main-page.php:26
+msgid "Optimal Price"
+msgstr ""
+
+#: templates/admin/main-page.php:27
+msgid "Price Change"
+msgstr ""
+
+#: templates/admin/main-page.php:31
+msgid "Market Data"
+msgstr ""
+
+#: templates/admin/main-page.php:32
+msgid "Competitor Prices"
+msgstr ""
+
+#: templates/admin/main-page.php:33
+msgid "No competitor data available"
+msgstr ""
+
+#: templates/admin/main-page.php:36
+msgid "Inventory Levels"
+msgstr ""
+
+#: templates/admin/main-page.php:37
+msgid "Current Stock: %d"
+msgstr ""
+
+#: templates/admin/main-page.php:38
+msgid "Status: %s"
+msgstr ""
+
+#: templates/admin/main-page.php:41
+msgid "Risk Analysis"
+msgstr ""
+
+#: templates/admin/main-page.php:42
+msgid "No risks identified"
+msgstr ""
+
+#: templates/admin/main-page.php:45
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/main-page.php:46
+msgid "Update Price"
+msgstr ""
+
+#: templates/admin/main-page.php:47
+msgid "No Update Needed"
+msgstr ""
+
+#: templates/admin/settings-page.php:12
+msgid "Price Optimization Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:13
+msgid "Minimum Margin (%)"
+msgstr ""
+
+#: templates/admin/settings-page.php:14
+msgid "Maximum Margin (%)"
+msgstr ""
+
+#: templates/admin/settings-page.php:15
+msgid "Maximum Price Change (%)"
+msgstr ""
+
+#: templates/admin/settings-page.php:18
+msgid "Weight Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:19
+msgid "Competitor Price Weight"
+msgstr ""
+
+#: templates/admin/settings-page.php:20
+msgid "Historical Data Weight"
+msgstr ""
+
+#: templates/admin/settings-page.php:21
+msgid "Seasonal Factor Weight"
+msgstr ""
+
+#: templates/admin/settings-page.php:22
+msgid "Inventory Level Weight"
+msgstr ""
+
+#: templates/admin/settings-page.php:23
+msgid "Demand Trend Weight"
+msgstr ""
+
+#: templates/admin/settings-page.php:26
+msgid "Competitor API Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:27
+msgid "API Name"
+msgstr ""
+
+#: templates/admin/settings-page.php:28
+msgid "API URL"
+msgstr ""
+
+#: templates/admin/settings-page.php:29
+msgid "API Key"
+msgstr ""
+
+#: templates/admin/settings-page.php:30
+msgid "Remove API"
+msgstr ""
+
+#: templates/admin/settings-page.php:31
+msgid "Add API"
+msgstr ""
+
+#: templates/admin/settings-page.php:34
+msgid "Holiday Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:35
+msgid "Holiday Date"
+msgstr ""
+
+#: templates/admin/settings-page.php:36
+msgid "Remove Holiday"
+msgstr ""
+
+#: templates/admin/settings-page.php:37
+msgid "Add Holiday"
+msgstr ""
+
+#: templates/admin/settings-page.php:40
+msgid "Automation Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:41
+msgid "Enable Automatic Price Updates"
+msgstr ""
+
+#: templates/admin/settings-page.php:42
+msgid "Automatically update prices based on optimization results"
+msgstr ""
+
+#: templates/admin/settings-page.php:45
+msgid "Save Settings"
+msgstr ""
+
+#: assets/js/admin.js:89
+msgid "Are you sure you want to update the price?"
+msgstr ""
+
+#: assets/js/admin.js:90
+msgid "Price updated successfully"
+msgstr ""
+
+#: assets/js/admin.js:91
+msgid "An error occurred"
+msgstr ""
+
+#: assets/js/admin.js:92
+msgid "No competitor data available"
+msgstr ""
+
+#: assets/js/admin.js:93
+msgid "No risks identified"
+msgstr "" 

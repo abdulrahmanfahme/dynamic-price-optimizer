@@ -1,0 +1,66 @@
+# Dependencies
+/vendor/
+/node_modules/
+/bower_components/
+
+# Build files
+/assets/css/
+/assets/js/
+/assets/images/
+*.map
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+/logs/
+/debug.log
+
+# Cache
+*.cache
+/cache/
+/tmp/
+
+# Test files
+/tests/coverage/
+.phpunit.result.cache
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# WordPress specific
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/backups/
+
+# Composer
+composer.phar
+composer.lock
+
+# npm
+package-lock.json
+yarn.lock
+
+# Misc
+*.bak
+*.tmp
+*.temp 
